@@ -1,0 +1,359 @@
+{
+  "Mockjs.Random boolean": {
+    "prefix": "@boolean",
+    "body": [
+      "@boolean($0)"
+    ],
+    "description": "Syntax: Random.boolean( min?, max?, current? )\nReturn value: 返回一个随机的布尔值。\n"
+  },
+  "Mockjs.Random natural": {
+    "prefix": "@natural",
+    "body": [
+      "@natural($0)"
+    ],
+    "description": "Syntax: Random.natural( min?, max? )\nReturn value: 返回一个随机的自然数（大于等于 0 的整数）。\n"
+  },
+  "Mockjs.Random integer": {
+    "prefix": "@integer",
+    "body": [
+      "@integer($0)"
+    ],
+    "description": "Syntax: Random.integer( min?, max? )\nReturn value: 返回一个随机的整数。\n"
+  },
+  "Mockjs.Random float": {
+    "prefix": "@float",
+    "body": [
+      "@float($0)"
+    ],
+    "description": "Syntax: Random.float( min?, max?, dmin?, dmax? )\nReturn value: 返回一个随机的浮点数。\n"
+  },
+  "Mockjs.Random character": {
+    "prefix": "@character",
+    "body": [
+      "@character($0)"
+    ],
+    "description": "Syntax: Random.character( pool? )\nReturn value: 返回一个随机字符。\n"
+  },
+  "Mockjs.Random string": {
+    "prefix": "@string",
+    "body": [
+      "@string($0)"
+    ],
+    "description": "Syntax: Random.string( pool?, min?, max? )\nReturn value: 返回一个随机字符串。\n"
+  },
+  "Mockjs.Random range": {
+    "prefix": "@range",
+    "body": [
+      "@range($0)"
+    ],
+    "description": "Syntax: Random.range( start?, stop, step? )\nReturn value: 返回一个整型数组。\n"
+  },
+  "Mockjs.Random date": {
+    "prefix": "@date",
+    "body": [
+      "@date($0)"
+    ],
+    "description": "Syntax: Random.date( format? )\nReturn value: 返回一个随机的日期字符串。\n"
+  },
+  "Mockjs.Random time": {
+    "prefix": "@time",
+    "body": [
+      "@time($0)"
+    ],
+    "description": "Syntax: Random.time( format? )\nReturn value: 返回一个随机的时间字符串。\n"
+  },
+  "Mockjs.Random datetime": {
+    "prefix": "@datetime",
+    "body": [
+      "@datetime($0)"
+    ],
+    "description": "Syntax: Random.datetime( format? )\nReturn value: 返回一个随机的日期和时间字符串。\n"
+  },
+  "Mockjs.Random now": {
+    "prefix": "@now",
+    "body": [
+      "@now($0)"
+    ],
+    "description": "Syntax: Random.now( unit?, format? )\nReturn value: 返回当前的日期和时间字符串。\n"
+  },
+  "Mockjs.Random image": {
+    "prefix": "@image",
+    "body": [
+      "@image($0)"
+    ],
+    "description": "Syntax: Random.image( size?, background?, foreground?, format?, text? )\nReturn value: 生成一个随机的图片地址。\n"
+  },
+  "Mockjs.Random dataImage": {
+    "prefix": "@dataImage",
+    "body": [
+      "@dataImage($0)"
+    ],
+    "description": "Syntax: Random.dataImage( size?, text? )\nReturn value: 生成一段随机的 Base64 图片编码。\n"
+  },
+  "Mockjs.Random color": {
+    "prefix": "@color",
+    "body": [
+      "@color($0)"
+    ],
+    "description": "Syntax: Random.color()\nReturn value: 随机生成一个有吸引力的颜色，格式为 '#RRGGBB'。\n"
+  },
+  "Mockjs.Random hex": {
+    "prefix": "@hex",
+    "body": [
+      "@hex($0)"
+    ],
+    "description": "Syntax: Random.hex()\nReturn value: 随机生成一个有吸引力的颜色，格式为 '#RRGGBB'。\n"
+  },
+  "Mockjs.Random rgb": {
+    "prefix": "@rgb",
+    "body": [
+      "@rgb($0)"
+    ],
+    "description": "Syntax: Random.rgb()\nReturn value: 随机生成一个有吸引力的颜色，格式为 'rgb(r, g, b)'。\n"
+  },
+  "Mockjs.Random rgba": {
+    "prefix": "@rgba",
+    "body": [
+      "@rgba($0)"
+    ],
+    "description": "Syntax: Random.rgba()\nReturn value: 随机生成一个有吸引力的颜色，格式为 'rgba(r, g, b, a)'。\n"
+  },
+  "Mockjs.Random hsl": {
+    "prefix": "@hsl",
+    "body": [
+      "@hsl($0)"
+    ],
+    "description": "Syntax: Random.hsl()\nReturn value: 随机生成一个有吸引力的颜色，格式为 'hsl(h, s, l)'。\n"
+  },
+  "Mockjs.Random paragraph": {
+    "prefix": "@paragraph",
+    "body": [
+      "@paragraph($0)"
+    ],
+    "description": "Syntax: Random.paragraph( min?, max? )\nReturn value: 随机生成一段文本。\n"
+  },
+  "Mockjs.Random cparagraph": {
+    "prefix": "@cparagraph",
+    "body": [
+      "@cparagraph($0)"
+    ],
+    "description": "Syntax: Random.cparagraph( min?, max? )\nReturn value: 随机生成一段中文文本。\n"
+  },
+  "Mockjs.Random sentence": {
+    "prefix": "@sentence",
+    "body": [
+      "@sentence($0)"
+    ],
+    "description": "Syntax: Random.sentence( min?, max? )\nReturn value: 随机生成一个句子，第一个单词的首字母大写。\n"
+  },
+  "Mockjs.Random csentence": {
+    "prefix": "@csentence",
+    "body": [
+      "@csentence($0)"
+    ],
+    "description": "Syntax: Random.csentence( min?, max? )\nReturn value: 随机生成一段中文文本。\n"
+  },
+  "Mockjs.Random word": {
+    "prefix": "@word",
+    "body": [
+      "@word($0)"
+    ],
+    "description": "Syntax: Random.word( min?, max? )\nReturn value: 随机生成一个单词。\n"
+  },
+  "Mockjs.Random cword": {
+    "prefix": "@cword",
+    "body": [
+      "@cword($0)"
+    ],
+    "description": "Syntax: Random.cword( pool?, min?, max? )\nReturn value: 随机生成一个汉字。\n"
+  },
+  "Mockjs.Random title": {
+    "prefix": "@title",
+    "body": [
+      "@title($0)"
+    ],
+    "description": "Syntax: Random.title( min?, max? )\nReturn value: 随机生成一句标题，其中每个单词的首字母大写。\n"
+  },
+  "Mockjs.Random ctitle": {
+    "prefix": "@ctitle",
+    "body": [
+      "@ctitle($0)"
+    ],
+    "description": "Syntax: Random.ctitle( min?, max? )\nReturn value: 随机生成一句中文标题。\n"
+  },
+  "Mockjs.Random first": {
+    "prefix": "@first",
+    "body": [
+      "@first($0)"
+    ],
+    "description": "Syntax: Random.first()\nReturn value: 随机生成一个常见的英文名。\n"
+  },
+  "Mockjs.Random last": {
+    "prefix": "@last",
+    "body": [
+      "@last($0)"
+    ],
+    "description": "Syntax: Random.last()\nReturn value: 随机生成一个常见的英文姓。\n"
+  },
+  "Mockjs.Random name": {
+    "prefix": "@name",
+    "body": [
+      "@name($0)"
+    ],
+    "description": "Syntax: Random.name( middle? )\nReturn value: 随机生成一个常见的英文姓名。\n"
+  },
+  "Mockjs.Random cfirst": {
+    "prefix": "@cfirst",
+    "body": [
+      "@cfirst($0)"
+    ],
+    "description": "Syntax: Random.cfirst()\nReturn value: 随机生成一个常见的中文名。\n"
+  },
+  "Mockjs.Random clast": {
+    "prefix": "@clast",
+    "body": [
+      "@clast($0)"
+    ],
+    "description": "Syntax: Random.clast()\nReturn value: 随机生成一个常见的中文姓。\n"
+  },
+  "Mockjs.Random cname": {
+    "prefix": "@cname",
+    "body": [
+      "@cname($0)"
+    ],
+    "description": "Syntax: Random.cname()\nReturn value: 随机生成一个常见的中文姓名。\n"
+  },
+  "Mockjs.Random url": {
+    "prefix": "@url",
+    "body": [
+      "@url($0)"
+    ],
+    "description": "Syntax: Random.url( protocol?, host? )\nReturn value: 随机生成一个 URL。\n"
+  },
+  "Mockjs.Random protocol": {
+    "prefix": "@protocol",
+    "body": [
+      "@protocol($0)"
+    ],
+    "description": "Syntax: Random.protocol()\nReturn value: 随机生成一个 URL 协议。返回以下值之一：'http'、'ftp'、'gopher'、'mailto'、'mid'、'cid'、'news'、'nntp'、'prospero'、'telnet'、'rlogin'、'tn3270'、'wais'。\n"
+  },
+  "Mockjs.Random domain": {
+    "prefix": "@domain",
+    "body": [
+      "@domain($0)"
+    ],
+    "description": "Syntax: Random.domain()\nReturn value: 随机生成一个域名。\n"
+  },
+  "Mockjs.Random tld": {
+    "prefix": "@tld",
+    "body": [
+      "@tld($0)"
+    ],
+    "description": "Syntax: Random.tld()\nReturn value: 随机生成一个顶级域名（Top Level Domain）。\n"
+  },
+  "Mockjs.Random email": {
+    "prefix": "@email",
+    "body": [
+      "@email($0)"
+    ],
+    "description": "Syntax: Random.email( domain? )\nReturn value: 随机生成一个邮件地址。\n"
+  },
+  "Mockjs.Random ip": {
+    "prefix": "@ip",
+    "body": [
+      "@ip($0)"
+    ],
+    "description": "Syntax: Random.ip()\nReturn value: 随机生成一个 IP 地址。\n"
+  },
+  "Mockjs.Random region": {
+    "prefix": "@region",
+    "body": [
+      "@region($0)"
+    ],
+    "description": "Syntax: Random.region()\nReturn value: 随机生成一个（中国）大区。\n"
+  },
+  "Mockjs.Random province": {
+    "prefix": "@province",
+    "body": [
+      "@province($0)"
+    ],
+    "description": "Syntax: Random.province()\nReturn value: 随机生成一个（中国）省（或直辖市、自治区、特别行政区）。\n"
+  },
+  "Mockjs.Random city": {
+    "prefix": "@city",
+    "body": [
+      "@city($0)"
+    ],
+    "description": "Syntax: Random.city( prefix? )\nReturn value: 随机生成一个（中国）市。\n"
+  },
+  "Mockjs.Random county": {
+    "prefix": "@county",
+    "body": [
+      "@county($0)"
+    ],
+    "description": "Syntax: Random.county( prefix? )\nReturn value: 随机生成一个（中国）县。\n"
+  },
+  "Mockjs.Random zip": {
+    "prefix": "@zip",
+    "body": [
+      "@zip($0)"
+    ],
+    "description": "Syntax: Random.zip()\nReturn value: 随机生成一个邮政编码（六位数字）。\n"
+  },
+  "Mockjs.Random capitalize": {
+    "prefix": "@capitalize",
+    "body": [
+      "@capitalize($0)"
+    ],
+    "description": "Syntax: Random.capitalize( word )\nReturn value: 把字符串的第一个字母转换为大写。\n"
+  },
+  "Mockjs.Random upper": {
+    "prefix": "@upper",
+    "body": [
+      "@upper($0)"
+    ],
+    "description": "Syntax: Random.upper( str )\nReturn value: 把字符串转换为大写。\n"
+  },
+  "Mockjs.Random lower": {
+    "prefix": "@lower",
+    "body": [
+      "@lower($0)"
+    ],
+    "description": "Syntax: Random.lower( str )\nReturn value: 把字符串转换为小写。\n"
+  },
+  "Mockjs.Random pick": {
+    "prefix": "@pick",
+    "body": [
+      "@pick($0)"
+    ],
+    "description": "Syntax: Random.pick( arr )\nReturn value: 从数组中随机选取一个元素，并返回。\n"
+  },
+  "Mockjs.Random shuffle": {
+    "prefix": "@shuffle",
+    "body": [
+      "@shuffle($0)"
+    ],
+    "description": "Syntax: Random.shuffle( arr )\nReturn value: 打乱数组中元素的顺序，并返回。\n"
+  },
+  "Mockjs.Random guid": {
+    "prefix": "@guid",
+    "body": [
+      "@guid($0)"
+    ],
+    "description": "Syntax: Random.guid()\nReturn value: 随机生成一个 GUID。\n"
+  },
+  "Mockjs.Random id": {
+    "prefix": "@id",
+    "body": [
+      "@id($0)"
+    ],
+    "description": "Syntax: Random.id()\nReturn value: 随机生成一个 18 位身份证。\n"
+  },
+  "Mockjs.Random increment": {
+    "prefix": "@increment",
+    "body": [
+      "@increment($0)"
+    ],
+    "description": "Syntax: Random.increment( step? )\nReturn value: 生成一个全局的自增整数。\n"
+  }
+}

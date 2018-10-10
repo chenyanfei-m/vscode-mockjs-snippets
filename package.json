@@ -1,0 +1,29 @@
+{
+    "name": "mockjs-snippets",
+    "displayName": "Mockjs Snippets",
+    "description": "mock.js snippets",
+    "version": "0.0.1",
+    "publisher": "chenyanfei-m",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chenyanfei-m/vscode-mockjs-snippets.git"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

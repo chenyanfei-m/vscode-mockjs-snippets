@@ -1,1 +1,1 @@
-# vscode-mockjs-snippets
+Mockjs Snippets
