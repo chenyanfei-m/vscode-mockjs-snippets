@@ -1,0 +1,1 @@
+# vscode-mockjs-snippets
