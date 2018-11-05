@@ -7,6 +7,10 @@
     "engines": {
         "vscode": "^1.28.0"
     },
+    "activationEvents": [
+        "onCommand:extension.mockjsSearch"
+    ],
+    "main": "./out/extension.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/chenyanfei-m/vscode-mockjs-snippets.git"
@@ -23,6 +27,12 @@
             {
                 "language": "javascript",
                 "path": "./snippets/snippets.json"
+            }
+        ],
+        "commands": [
+            {
+                "command": "extension.mockjsSearch",
+                "title": "Mockjs: Search"
             }
         ]
     }
