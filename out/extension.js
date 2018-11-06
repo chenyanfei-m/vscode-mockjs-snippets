@@ -14,6 +14,7 @@ function activate(context) {
       matchOnDescription: true,
       matchOnDetail: true,
     })
+    if (!selectedItem) return
     const editor = vscode.window.activeTextEditor
     if (!editor) return
     editor.insertSnippet(
