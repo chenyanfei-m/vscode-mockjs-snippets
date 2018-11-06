@@ -1,4 +1,6 @@
 # Change Log
+0.0.4
+- bugfix: error info
 
 0.0.3
 - support search
