@@ -11,7 +11,7 @@ Github: https://github.com/chenyanfei-m/vscode-mockjs-snippets
 
 ## Install
 - launch the Command Pallete (`Ctrl + Shift + P` or `Cmd + Shift + P`) and type `ext install`, select `Extensions: Install Extensions`
-- Search for `mockjs snippets` and instll it
+- Search for `mockjs snippets` and install it
 
 ## Usage
 

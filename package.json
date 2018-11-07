@@ -2,7 +2,7 @@
     "name": "mockjs-snippets",
     "displayName": "Mockjs Snippets",
     "description": "mock.js snippets",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "chenyanfei-m",
     "engines": {
         "vscode": "^1.28.0"
@@ -35,5 +35,6 @@
                 "title": "Mockjs: Search"
             }
         ]
-    }
+    },
+    "icon": "./assets/image/icon.png"
 }
