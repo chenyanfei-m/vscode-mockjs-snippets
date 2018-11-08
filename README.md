@@ -1,6 +1,6 @@
 # Mockjs Snippets
 
-[![Mockjs Snippets](https://img.shields.io/badge/Mockjs%20Snippets-0.0.3-brightgreen.svg)](https://github.com/chenyanfei-m/vscode-mockjs-snippets)
+[![Mockjs Snippets](https://img.shields.io/badge/Mockjs%20Snippets-0.0.6-brightgreen.svg)](https://github.com/chenyanfei-m/vscode-mockjs-snippets)
 
 ## Mockjs
 Official Site: http://mockjs.com/    

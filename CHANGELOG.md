@@ -1,4 +1,8 @@
 # Change Log
+0.0.6
+0.0.5
+- update doc
+
 0.0.4
 - bugfix: error info
 
