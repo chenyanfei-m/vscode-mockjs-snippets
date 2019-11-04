@@ -1,5 +1,10 @@
 # Change Log
+0.0.7
+- add ts support
+
 0.0.6
+- update doc
+
 0.0.5
 - update doc
 
